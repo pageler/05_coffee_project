@@ -43,7 +43,7 @@ body {
     background-color: #100e0f;
 }
 
-/* Nav */
+/* Navbar */
 nav {
     display: flex;
     justify-content: space-around;
@@ -106,4 +106,88 @@ li a:hover {
 .main-btn {
     position: absolute;
     top: 12rem;
+}
+
+/* Our Story */
+#our-story {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    width:400px;
+    height: 400px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1674327105280-b86494dfc690?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top;
+    background-size: cover;
+}
+
+.title-style {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: "Playfair Display", serif;
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    transform: translateX(-120px)
+}
+
+.section-container {
+    max-width: 500px;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.our-story-btn {
+    position: absolute;
+    top: 63rem;
+}
+
+/* Perfect Place */
+.coffee-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.img-container {
+    width: 500px;
+    height: 400px;
+}
+
+.img-2 {
+    width: 400px;
+    height: 400px;
+}
+
+.title-two {
+    font-size: 3rem;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+}
+
+.content-section p {
+    max-width: 500px;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coffee-container-btn {
+    position:absolute;
+    margin-top: 20px;
 }
