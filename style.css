@@ -243,13 +243,13 @@ li a:hover {
 }
 
 .img-two {
-    background-image: url(https://images.unsplash.com/photo-1593460496385-efb8d64c8719?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1467189267171-910e6c7a4370?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-size: cover;
 }
 
 .img-three {
-    background-image: url(https://images.unsplash.com/photo-1608070734668-e74dc3dda037?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1705588765845-fc352bb05474?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-size: cover;
 }
@@ -269,3 +269,95 @@ li a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Footer */
+footer {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .container {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+footer .heading-info {
+    margin-bottom: 20px;
+}
+
+footer p {
+    line-height: 25px;
+}
+
+span {
+    color: var(--main-color)
+}
+
+hr {
+    margin-bottom: 20px;
+    border-color: var(--main-color);
+    width: 500px;
+    margin: 0 auto;
+}
+
+.para {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-headings,
+    .primary-heading {
+        font-size: 2.5rem;
+    }
+
+    #our-story {
+        text-align: center;
+    }
+
+    #our-story p {
+        margin-top: 50px;
+    }
+
+    #our-story .title {
+        transform: translateY(50px);
+    }
+
+    #our-story .line {
+        display: none;
+    }
+
+    .content-section {
+        text-align: center;
+    }
+
+    #our-story .img-container .img {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .coffee-container .img-container {
+        margin-top: 5rem;
+        width: 50%;
+    }
+
+    hr {
+        width: 400px;
+    }
+
+    .hr-two {
+        display: none;
+    }
+
+    .para {
+        margin-top: 10rem;
+    }
+}
